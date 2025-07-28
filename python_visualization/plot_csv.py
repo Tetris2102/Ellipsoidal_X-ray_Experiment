@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 # Load data
-data = np.loadtxt("filtered_gamma_momenta_curved.csv", delimiter=',', skiprows=1)
+data = np.loadtxt("/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/data/data_raw/500 keV/flat/gamma_momenta.csv", delimiter=',', skiprows=1)
 px, py, pz = data[:,2], data[:,3], data[:,4]
 
 # Calculate average vector
@@ -26,38 +26,40 @@ angular_divergence = np.mean(angles)
 # Calculate magnitude variation
 magnitude_std = np.std(norms)
 
-# Create 3D plot
-fig = plt.figure(figsize=(12, 9))
-ax = fig.add_subplot(111, projection='3d')
+print(f"Angular divergence: {np.degrees(angular_divergence)} degrees")
 
-# Plot original vectors with half transparency
-ax.quiver(np.zeros_like(px), np.zeros_like(py), np.zeros_like(pz), 
-          px, py, pz, 
-          length=0.1, normalize=True, 
-          alpha=0.5, arrow_length_ratio=0.1, color='blue')
+# # Create 3D plot
+# fig = plt.figure(figsize=(12, 9))
+# ax = fig.add_subplot(111, projection='3d')
 
-# Plot average vector (red and thicker)
-ax.quiver(0, 0, 0, 
-          avg_px, avg_py, avg_pz, 
-          length=0.1, normalize=True, 
-          color='red', linewidth=2, arrow_length_ratio=0.1)
+# # Plot original vectors with half transparency
+# ax.quiver(np.zeros_like(px), np.zeros_like(py), np.zeros_like(pz), 
+#           px, py, pz, 
+#           length=0.1, normalize=True, 
+#           alpha=0.5, arrow_length_ratio=0.1, color='blue')
 
-# Set labels and title with divergence info
-ax.set_xlabel('X')
-ax.set_ylabel('Y')
-ax.set_zlabel('Z')
-ax.set_title(f'Momentum Directions of Emitted Particles\n'
-             f'Angular Divergence: {np.degrees(angular_divergence):.2f}°  '
-             f'Magnitude Variation: {magnitude_std:.2e}')
+# # Plot average vector (red and thicker)
+# ax.quiver(0, 0, 0, 
+#           avg_px, avg_py, avg_pz, 
+#           length=0.1, normalize=True, 
+#           color='red', linewidth=2, arrow_length_ratio=0.1)
 
-# Equal aspect ratio
-ax.set_box_aspect([1,1,1])
+# # Set labels and title with divergence info
+# ax.set_xlabel('X')
+# ax.set_ylabel('Y')
+# ax.set_zlabel('Z')
+# ax.set_title(f'Momentum Directions of Emitted Particles\n'
+#              f'Angular Divergence: {np.degrees(angular_divergence):.2f}°  '
+#              f'Magnitude Variation: {magnitude_std:.2e}')
 
-# Add legend
-from matplotlib.lines import Line2D
-legend_elements = [Line2D([0], [0], color='blue', alpha=0.5, lw=2, label='Individual Vectors'),
-                   Line2D([0], [0], color='red', lw=2, label='Average Vector')]
-ax.legend(handles=legend_elements)
+# # Equal aspect ratio
+# ax.set_box_aspect([1,1,1])
 
-plt.tight_layout()
-plt.show()
+# # Add legend
+# from matplotlib.lines import Line2D
+# legend_elements = [Line2D([0], [0], color='blue', alpha=0.5, lw=2, label='Individual Vectors'),
+#                    Line2D([0], [0], color='red', lw=2, label='Average Vector')]
+# ax.legend(handles=legend_elements)
+
+# plt.tight_layout()
+# plt.show()
