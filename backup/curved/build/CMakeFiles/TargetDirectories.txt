@@ -1,0 +1,3 @@
+/Users/tarasosaulenko/X-RAY EXPERIMENT/DO NOT MODIFY BACKUP/curved/build/CMakeFiles/CurvedTarget.dir
+/Users/tarasosaulenko/X-RAY EXPERIMENT/DO NOT MODIFY BACKUP/curved/build/CMakeFiles/edit_cache.dir
+/Users/tarasosaulenko/X-RAY EXPERIMENT/DO NOT MODIFY BACKUP/curved/build/CMakeFiles/rebuild_cache.dir

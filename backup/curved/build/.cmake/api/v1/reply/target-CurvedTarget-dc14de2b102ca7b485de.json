@@ -1,0 +1,1248 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CurvedTarget"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/Geant4LibraryDepends.cmake",
+			"/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/Geant4Config.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 495,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 165,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 225,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 78,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "G4LIB_BUILD_DLL"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "G4UI_USE_QT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "G4VIS_USE_OPENGLQT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "G4VIS_USE_TOOLSSG_QT_GLES"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "G4VIS_USE_TOOLSSG_QT_ZB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PTL_BUILD_DLL"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/local/libexec/qt5/lib/QtCore.framework"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/local/libexec/qt5/lib/QtGui.framework"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/local/libexec/qt5/lib/QtWidgets.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/analysis/accumulables/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/analysis/csv/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/analysis/factory/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/analysis/hntools/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/analysis/management/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/analysis/root/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/analysis/xml/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/digits_hits/detector/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/digits_hits/digits/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/digits_hits/hits/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/digits_hits/scorer/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/digits_hits/utils/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/error_propagation/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/event/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/externals/clhep/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/externals/zlib/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/externals/ptl/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/geometry/biasing/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/geometry/divisions/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/geometry/magneticfield/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/geometry/management/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/source/geometry/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/geometry/navigation/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/geometry/solids/Boolean/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/geometry/solids/CSG/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/geometry/solids/specific/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/geometry/volumes/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/HEPGeometry/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/HEPNumerics/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/HEPRandom/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/management/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/source/global/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/graphics_reps/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/intercoms/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/interfaces/core/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/interfaces/implementation/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/materials/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/parameterisations/channeling/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/parameterisations/gflash/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/particles/adjoint/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/particles/bosons/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/particles/hadrons/barions/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/particles/hadrons/ions/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/particles/hadrons/mesons/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/particles/leptons/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/particles/management/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/particles/shortlived/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/particles/utils/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/persistency/ascii/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/persistency/mctruth/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/persistency/gdml/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/builders/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/constructors/decay/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/constructors/electromagnetic/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/constructors/factory/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/constructors/gamma_lepto_nuclear/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/constructors/hadron_elastic/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/constructors/hadron_inelastic/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/constructors/ions/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/constructors/limiters/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/constructors/stopping/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/lists/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/util/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/biasing/management/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/biasing/generic/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/biasing/importance/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/cuts/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/decay/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/adjoint/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/dna/processes/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/dna/models/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/dna/utils/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/dna/management/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/dna/molecules/management/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/dna/molecules/types/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/highenergy/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/lowenergy/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/muons/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/pii/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/polarisation/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/standard/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/utils/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/xrays/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/cross_sections/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/management/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/abla/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/abrasion/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/binary_cascade/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/cascade/cascade/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/coherent_elastic/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/de_excitation/ablation/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/de_excitation/evaporation/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/de_excitation/fermi_breakup/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/de_excitation/fission/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/de_excitation/gem_evaporation/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/de_excitation/handler/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/de_excitation/management/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/de_excitation/multifragmentation/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/de_excitation/photon_evaporation/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/de_excitation/util/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/em_dissociation/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/fission/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/im_r_matrix/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/inclxx/utils/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/inclxx/incl_physics/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/inclxx/interface/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/gamma_nuclear/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/lend/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/lepto_nuclear/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/nudex/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/particle_hp/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/parton_string/diffraction/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/parton_string/hadronization/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/parton_string/management/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/parton_string/qgsm/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/pre_equilibrium/exciton_model/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/qmd/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/quasi_elastic/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/radioactive_decay/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/models/theo_high_energy/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/processes/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/stopping/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/hadronic/util/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/management/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/optical/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/solidstate/phonon/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/solidstate/channeling/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/parameterisation/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/scoring/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/transportation/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/readout/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/track/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/tracking/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/visualization/FukuiRenderer/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/visualization/HepRep/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/visualization/RayTracer/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/visualization/Tree/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/visualization/VRML/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/visualization/gMocren/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/visualization/management/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/visualization/modeling/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/visualization/ToolsSG/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/visualization/OpenGL/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/usr/local/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/source/externals/ptl/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/externals/g4tools/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/local/libexec/qt5/lib/QtCore.framework/Headers"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/local/libexec/qt5/./mkspecs/macx-clang"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/local/libexec/qt5/lib/QtGui.framework/Headers"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks/OpenGL.framework/Headers"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/local/libexec/qt5/lib/QtWidgets.framework/Headers"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/source/externals/zlib"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"id" : "CurvedTarget::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-F/opt/local/libexec/qt5/lib",
+				"role" : "frameworkPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4Tree.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4FR.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4GMocren.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4visHepRep.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4RayTracer.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4VRML.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4ToolsSG.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4OpenGL.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4vis_management.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4modeling.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4interfaces.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4mctruth.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4geomtext.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4gdml.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4error_propagation.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4readout.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4physicslists.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4run.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4event.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4tracking.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4parmodels.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4processes.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4digits_hits.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4track.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4particles.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4geometry.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4materials.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4graphics_reps.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libxerces-c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/local/libexec/qt5/lib/QtWidgets.framework/QtWidgets",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/local/libexec/qt5/lib/QtGui.framework/QtGui",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/local/libexec/qt5/lib/QtCore.framework/QtCore",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/usr/local/lib/libxerces-c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4analysis.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libexpat.tbd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4zlib.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4intercoms.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4global.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4clhep.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4ptl.3.0.0.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "CurvedTarget",
+	"nameOnDisk" : "CurvedTarget",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "CurvedTarget.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "GammaMomentumSD.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "GammaTrackingAction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "action.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "construction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "generator.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "physics.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
