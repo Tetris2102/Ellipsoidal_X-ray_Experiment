@@ -1,0 +1,3 @@
+/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles/FlatTarget.dir
+/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles/edit_cache.dir
+/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles/rebuild_cache.dir
