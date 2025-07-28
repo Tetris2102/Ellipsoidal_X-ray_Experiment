@@ -45,10 +45,5 @@ void GammaTrackingAction::PreUserTrackingAction(const G4Track* track)
                   << momentum.x()/CLHEP::MeV << ","
                   << momentum.y()/CLHEP::MeV << ","
                   << momentum.z()/CLHEP::MeV << "\n";
-        
-        // Optional: flush periodically if you want to see data during long runs
-        // if (eventID % 1000 == 0) {
-        //     outputFile.flush();
-        // }
     }
 }

@@ -1,6 +1,6 @@
 CMakeFiles/CurvedTarget.dir/physics.cc.o: \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/physics.cc \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/physics.hh \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/physics.cc \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/physics.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4VModularPhysicsList.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4VPhysicsConstructor.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/particles/management/include/G4ParticleTable.hh \

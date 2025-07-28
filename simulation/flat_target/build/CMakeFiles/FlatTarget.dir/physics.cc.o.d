@@ -1,6 +1,6 @@
 CMakeFiles/FlatTarget.dir/physics.cc.o: \
-  /Users/tarasosaulenko/X-RAY\ EXPERIMENT/DO\ NOT\ MODIFY\ BACKUP/flat/physics.cc \
-  /Users/tarasosaulenko/X-RAY\ EXPERIMENT/DO\ NOT\ MODIFY\ BACKUP/flat/physics.hh \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/physics.cc \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/physics.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4VModularPhysicsList.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4VPhysicsConstructor.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/particles/management/include/G4ParticleTable.hh \

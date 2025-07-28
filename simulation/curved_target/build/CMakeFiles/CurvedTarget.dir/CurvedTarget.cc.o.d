@@ -1,5 +1,5 @@
 CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o: \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/CurvedTarget.cc \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/CurvedTarget.cc \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4RunManager.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/event/include/G4Event.hh \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/set \
@@ -1201,7 +1201,7 @@ CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o: \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/intercoms/include/G4UIsession.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/management/include/G4coutDestination.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/intercoms/include/G4UIbatch.hh \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/construction.hh \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/construction.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4VUserDetectorConstruction.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/geometry/volumes/include/G4PVPlacement.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/materials/include/G4NistManager.hh \
@@ -1211,7 +1211,7 @@ CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o: \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/management/include/G4Pow.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/management/include/G4Exp.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/management/include/G4SystemOfUnits.hh \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/physics.hh \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/physics.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4VModularPhysicsList.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4VPhysicsConstructor.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4PhysicsListHelper.hh \
@@ -1228,9 +1228,9 @@ CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o: \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/constructors/electromagnetic/include/G4EmStandardPhysics.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/physics_lists/constructors/electromagnetic/include/G4OpticalPhysics.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/processes/electromagnetic/utils/include/G4OpticalParameters.hh \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/action.hh \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/action.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4VUserActionInitialization.hh \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/generator.hh \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/generator.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4VUserPrimaryGeneratorAction.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/event/include/G4ParticleGun.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/event/include/G4VPrimaryGenerator.hh

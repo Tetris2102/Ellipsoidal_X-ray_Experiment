@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/tarasosaulenko/Geant4/work/test_target/curved/CurvedTarget.cc" "CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o.d"
-  "/Users/tarasosaulenko/Geant4/work/test_target/curved/GammaMomentumSD.cc" "CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o.d"
-  "/Users/tarasosaulenko/Geant4/work/test_target/curved/GammaTrackingAction.cc" "CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o.d"
-  "/Users/tarasosaulenko/Geant4/work/test_target/curved/action.cc" "CMakeFiles/CurvedTarget.dir/action.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/action.cc.o.d"
-  "/Users/tarasosaulenko/Geant4/work/test_target/curved/construction.cc" "CMakeFiles/CurvedTarget.dir/construction.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/construction.cc.o.d"
-  "/Users/tarasosaulenko/Geant4/work/test_target/curved/generator.cc" "CMakeFiles/CurvedTarget.dir/generator.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/generator.cc.o.d"
-  "/Users/tarasosaulenko/Geant4/work/test_target/curved/physics.cc" "CMakeFiles/CurvedTarget.dir/physics.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/physics.cc.o.d"
+  "/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/CurvedTarget.cc" "CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o.d"
+  "/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaMomentumSD.cc" "CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o.d"
+  "/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaTrackingAction.cc" "CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o.d"
+  "/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/action.cc" "CMakeFiles/CurvedTarget.dir/action.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/action.cc.o.d"
+  "/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/construction.cc" "CMakeFiles/CurvedTarget.dir/construction.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/construction.cc.o.d"
+  "/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/generator.cc" "CMakeFiles/CurvedTarget.dir/generator.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/generator.cc.o.d"
+  "/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/physics.cc" "CMakeFiles/CurvedTarget.dir/physics.cc.o" "gcc" "CMakeFiles/CurvedTarget.dir/physics.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

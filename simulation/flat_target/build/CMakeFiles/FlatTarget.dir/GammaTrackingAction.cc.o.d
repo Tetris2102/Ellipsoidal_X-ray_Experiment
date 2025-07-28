@@ -1,6 +1,6 @@
 CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o: \
-  /Users/tarasosaulenko/Geant4/work/test_target/flat/GammaTrackingAction.cc \
-  /Users/tarasosaulenko/Geant4/work/test_target/flat/GammaTrackingAction.hh \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/GammaTrackingAction.cc \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/GammaTrackingAction.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/tracking/include/G4UserTrackingAction.hh \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__algorithm/max.h \

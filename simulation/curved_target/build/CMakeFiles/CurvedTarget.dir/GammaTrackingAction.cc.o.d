@@ -1,6 +1,6 @@
 CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o: \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/GammaTrackingAction.cc \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/GammaTrackingAction.hh \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaTrackingAction.cc \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaTrackingAction.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/tracking/include/G4UserTrackingAction.hh \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__algorithm/max.h \

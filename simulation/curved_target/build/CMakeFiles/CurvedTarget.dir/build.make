@@ -53,10 +53,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tarasosaulenko/Geant4/work/test_target/curved
+CMAKE_SOURCE_DIR = /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tarasosaulenko/Geant4/work/test_target/curved/build
+CMAKE_BINARY_DIR = /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CurvedTarget.dir/depend.make
@@ -73,102 +73,102 @@ CMakeFiles/CurvedTarget.dir/codegen:
 .PHONY : CMakeFiles/CurvedTarget.dir/codegen
 
 CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o: CMakeFiles/CurvedTarget.dir/flags.make
-CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/curved/CurvedTarget.cc
+CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/CurvedTarget.cc
 CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o: CMakeFiles/CurvedTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/curved/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o -MF CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o.d -o CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/curved/CurvedTarget.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o -MF CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o.d -o CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/CurvedTarget.cc
 
 CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/curved/CurvedTarget.cc > CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/CurvedTarget.cc > CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.i
 
 CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/curved/CurvedTarget.cc -o CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/CurvedTarget.cc -o CMakeFiles/CurvedTarget.dir/CurvedTarget.cc.s
 
 CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o: CMakeFiles/CurvedTarget.dir/flags.make
-CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/curved/GammaMomentumSD.cc
+CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaMomentumSD.cc
 CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o: CMakeFiles/CurvedTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/curved/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o -MF CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o.d -o CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/curved/GammaMomentumSD.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o -MF CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o.d -o CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaMomentumSD.cc
 
 CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/curved/GammaMomentumSD.cc > CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaMomentumSD.cc > CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.i
 
 CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/curved/GammaMomentumSD.cc -o CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaMomentumSD.cc -o CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.s
 
 CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o: CMakeFiles/CurvedTarget.dir/flags.make
-CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/curved/GammaTrackingAction.cc
+CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaTrackingAction.cc
 CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o: CMakeFiles/CurvedTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/curved/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o -MF CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o.d -o CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/curved/GammaTrackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o -MF CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o.d -o CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaTrackingAction.cc
 
 CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/curved/GammaTrackingAction.cc > CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaTrackingAction.cc > CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.i
 
 CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/curved/GammaTrackingAction.cc -o CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaTrackingAction.cc -o CMakeFiles/CurvedTarget.dir/GammaTrackingAction.cc.s
 
 CMakeFiles/CurvedTarget.dir/action.cc.o: CMakeFiles/CurvedTarget.dir/flags.make
-CMakeFiles/CurvedTarget.dir/action.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/curved/action.cc
+CMakeFiles/CurvedTarget.dir/action.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/action.cc
 CMakeFiles/CurvedTarget.dir/action.cc.o: CMakeFiles/CurvedTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/curved/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CurvedTarget.dir/action.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/action.cc.o -MF CMakeFiles/CurvedTarget.dir/action.cc.o.d -o CMakeFiles/CurvedTarget.dir/action.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/curved/action.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CurvedTarget.dir/action.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/action.cc.o -MF CMakeFiles/CurvedTarget.dir/action.cc.o.d -o CMakeFiles/CurvedTarget.dir/action.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/action.cc
 
 CMakeFiles/CurvedTarget.dir/action.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CurvedTarget.dir/action.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/curved/action.cc > CMakeFiles/CurvedTarget.dir/action.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/action.cc > CMakeFiles/CurvedTarget.dir/action.cc.i
 
 CMakeFiles/CurvedTarget.dir/action.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CurvedTarget.dir/action.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/curved/action.cc -o CMakeFiles/CurvedTarget.dir/action.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/action.cc -o CMakeFiles/CurvedTarget.dir/action.cc.s
 
 CMakeFiles/CurvedTarget.dir/construction.cc.o: CMakeFiles/CurvedTarget.dir/flags.make
-CMakeFiles/CurvedTarget.dir/construction.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/curved/construction.cc
+CMakeFiles/CurvedTarget.dir/construction.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/construction.cc
 CMakeFiles/CurvedTarget.dir/construction.cc.o: CMakeFiles/CurvedTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/curved/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CurvedTarget.dir/construction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/construction.cc.o -MF CMakeFiles/CurvedTarget.dir/construction.cc.o.d -o CMakeFiles/CurvedTarget.dir/construction.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/curved/construction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CurvedTarget.dir/construction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/construction.cc.o -MF CMakeFiles/CurvedTarget.dir/construction.cc.o.d -o CMakeFiles/CurvedTarget.dir/construction.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/construction.cc
 
 CMakeFiles/CurvedTarget.dir/construction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CurvedTarget.dir/construction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/curved/construction.cc > CMakeFiles/CurvedTarget.dir/construction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/construction.cc > CMakeFiles/CurvedTarget.dir/construction.cc.i
 
 CMakeFiles/CurvedTarget.dir/construction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CurvedTarget.dir/construction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/curved/construction.cc -o CMakeFiles/CurvedTarget.dir/construction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/construction.cc -o CMakeFiles/CurvedTarget.dir/construction.cc.s
 
 CMakeFiles/CurvedTarget.dir/generator.cc.o: CMakeFiles/CurvedTarget.dir/flags.make
-CMakeFiles/CurvedTarget.dir/generator.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/curved/generator.cc
+CMakeFiles/CurvedTarget.dir/generator.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/generator.cc
 CMakeFiles/CurvedTarget.dir/generator.cc.o: CMakeFiles/CurvedTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/curved/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CurvedTarget.dir/generator.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/generator.cc.o -MF CMakeFiles/CurvedTarget.dir/generator.cc.o.d -o CMakeFiles/CurvedTarget.dir/generator.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/curved/generator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CurvedTarget.dir/generator.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/generator.cc.o -MF CMakeFiles/CurvedTarget.dir/generator.cc.o.d -o CMakeFiles/CurvedTarget.dir/generator.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/generator.cc
 
 CMakeFiles/CurvedTarget.dir/generator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CurvedTarget.dir/generator.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/curved/generator.cc > CMakeFiles/CurvedTarget.dir/generator.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/generator.cc > CMakeFiles/CurvedTarget.dir/generator.cc.i
 
 CMakeFiles/CurvedTarget.dir/generator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CurvedTarget.dir/generator.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/curved/generator.cc -o CMakeFiles/CurvedTarget.dir/generator.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/generator.cc -o CMakeFiles/CurvedTarget.dir/generator.cc.s
 
 CMakeFiles/CurvedTarget.dir/physics.cc.o: CMakeFiles/CurvedTarget.dir/flags.make
-CMakeFiles/CurvedTarget.dir/physics.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/curved/physics.cc
+CMakeFiles/CurvedTarget.dir/physics.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/physics.cc
 CMakeFiles/CurvedTarget.dir/physics.cc.o: CMakeFiles/CurvedTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/curved/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CurvedTarget.dir/physics.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/physics.cc.o -MF CMakeFiles/CurvedTarget.dir/physics.cc.o.d -o CMakeFiles/CurvedTarget.dir/physics.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/curved/physics.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CurvedTarget.dir/physics.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CurvedTarget.dir/physics.cc.o -MF CMakeFiles/CurvedTarget.dir/physics.cc.o.d -o CMakeFiles/CurvedTarget.dir/physics.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/physics.cc
 
 CMakeFiles/CurvedTarget.dir/physics.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CurvedTarget.dir/physics.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/curved/physics.cc > CMakeFiles/CurvedTarget.dir/physics.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/physics.cc > CMakeFiles/CurvedTarget.dir/physics.cc.i
 
 CMakeFiles/CurvedTarget.dir/physics.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CurvedTarget.dir/physics.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/curved/physics.cc -o CMakeFiles/CurvedTarget.dir/physics.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/physics.cc -o CMakeFiles/CurvedTarget.dir/physics.cc.s
 
 # Object files for target CurvedTarget
 CurvedTarget_OBJECTS = \
@@ -232,7 +232,7 @@ CurvedTarget: /Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/li
 CurvedTarget: /Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4clhep.dylib
 CurvedTarget: /Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4ptl.3.0.0.dylib
 CurvedTarget: CMakeFiles/CurvedTarget.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/curved/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CurvedTarget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CurvedTarget"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CurvedTarget.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -244,6 +244,6 @@ CMakeFiles/CurvedTarget.dir/clean:
 .PHONY : CMakeFiles/CurvedTarget.dir/clean
 
 CMakeFiles/CurvedTarget.dir/depend:
-	cd /Users/tarasosaulenko/Geant4/work/test_target/curved/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tarasosaulenko/Geant4/work/test_target/curved /Users/tarasosaulenko/Geant4/work/test_target/curved /Users/tarasosaulenko/Geant4/work/test_target/curved/build /Users/tarasosaulenko/Geant4/work/test_target/curved/build /Users/tarasosaulenko/Geant4/work/test_target/curved/build/CMakeFiles/CurvedTarget.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CMakeFiles/CurvedTarget.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CurvedTarget.dir/depend
 

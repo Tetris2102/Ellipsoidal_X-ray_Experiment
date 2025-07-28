@@ -54,10 +54,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tarasosaulenko/Geant4/work/test_target/flat
+CMAKE_SOURCE_DIR = /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tarasosaulenko/Geant4/work/test_target/flat/build
+CMAKE_BINARY_DIR = /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/FlatTarget.dir/clean
 CMakeFiles/FlatTarget.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlatTarget.dir/build.make CMakeFiles/FlatTarget.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlatTarget.dir/build.make CMakeFiles/FlatTarget.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target FlatTarget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target FlatTarget"
 .PHONY : CMakeFiles/FlatTarget.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FlatTarget.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FlatTarget.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles 0
 .PHONY : CMakeFiles/FlatTarget.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ FlatTarget: CMakeFiles/FlatTarget.dir/rule
 # codegen rule for target.
 CMakeFiles/FlatTarget.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlatTarget.dir/build.make CMakeFiles/FlatTarget.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target FlatTarget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target FlatTarget"
 .PHONY : CMakeFiles/FlatTarget.dir/codegen
 
 # clean rule for target.

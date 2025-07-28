@@ -1,6 +1,6 @@
 CMakeFiles/CurvedTarget.dir/GammaMomentumSD.cc.o: \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/GammaMomentumSD.cc \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/GammaMomentumSD.hh \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaMomentumSD.cc \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/GammaMomentumSD.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/digits_hits/detector/include/G4VSensitiveDetector.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/digits_hits/detector/include/G4CollectionNameVector.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/management/include/globals.hh \

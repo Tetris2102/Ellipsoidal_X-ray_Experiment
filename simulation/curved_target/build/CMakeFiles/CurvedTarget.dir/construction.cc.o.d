@@ -1,6 +1,6 @@
 CMakeFiles/CurvedTarget.dir/construction.cc.o: \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/construction.cc \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/construction.hh \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/construction.cc \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/construction.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4VUserDetectorConstruction.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/management/include/globals.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/management/include/G4ios.hh \

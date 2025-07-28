@@ -7,6 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/CMakeLists.txt"
+  "CMakeFiles/3.31.7/CMakeCCompiler.cmake"
+  "CMakeFiles/3.31.7/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.31.7/CMakeSystem.cmake"
   "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/G4EXPATShim.cmake"
   "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/Geant4Config.cmake"
   "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/Geant4ConfigVersion.cmake"
@@ -19,10 +23,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/source/externals/ptl/PTLConfigVersion.cmake"
   "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/source/externals/ptl/PTLTargets.cmake"
   "/Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/source/externals/ptl/ptl-shared.cmake"
-  "/Users/tarasosaulenko/Geant4/work/test_target/flat/CMakeLists.txt"
-  "CMakeFiles/3.31.7/CMakeCCompiler.cmake"
-  "CMakeFiles/3.31.7/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.31.7/CMakeSystem.cmake"
   "/opt/local/libexec/qt5/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
   "/opt/local/libexec/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake"
   "/opt/local/libexec/qt5/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake"

@@ -1,6 +1,6 @@
 CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o: \
-  /Users/tarasosaulenko/X-RAY\ EXPERIMENT/DO\ NOT\ MODIFY\ BACKUP/flat/GammaMomentumSD.cc \
-  /Users/tarasosaulenko/X-RAY\ EXPERIMENT/DO\ NOT\ MODIFY\ BACKUP/flat/GammaMomentumSD.hh \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/GammaMomentumSD.cc \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/GammaMomentumSD.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/digits_hits/detector/include/G4VSensitiveDetector.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/digits_hits/detector/include/G4CollectionNameVector.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/management/include/globals.hh \

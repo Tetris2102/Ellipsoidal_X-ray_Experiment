@@ -1,3 +1,3 @@
-/Users/tarasosaulenko/Geant4/work/test_target/curved/build/CMakeFiles/CurvedTarget.dir
-/Users/tarasosaulenko/Geant4/work/test_target/curved/build/CMakeFiles/edit_cache.dir
-/Users/tarasosaulenko/Geant4/work/test_target/curved/build/CMakeFiles/rebuild_cache.dir
+/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CMakeFiles/CurvedTarget.dir
+/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CMakeFiles/edit_cache.dir
+/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CMakeFiles/rebuild_cache.dir

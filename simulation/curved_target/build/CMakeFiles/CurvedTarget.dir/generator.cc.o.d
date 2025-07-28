@@ -1,6 +1,6 @@
 CMakeFiles/CurvedTarget.dir/generator.cc.o: \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/generator.cc \
-  /Users/tarasosaulenko/Geant4/work/test_target/curved/generator.hh \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/generator.cc \
+  /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/generator.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/run/include/G4VUserPrimaryGeneratorAction.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/event/include/G4ParticleGun.hh \
   /Users/tarasosaulenko/Geant4/geant4-v11.3.2/source/global/management/include/globals.hh \

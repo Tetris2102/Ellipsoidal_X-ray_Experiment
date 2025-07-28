@@ -53,10 +53,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tarasosaulenko/Geant4/work/test_target/flat
+CMAKE_SOURCE_DIR = /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tarasosaulenko/Geant4/work/test_target/flat/build
+CMAKE_BINARY_DIR = /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FlatTarget.dir/depend.make
@@ -73,102 +73,102 @@ CMakeFiles/FlatTarget.dir/codegen:
 .PHONY : CMakeFiles/FlatTarget.dir/codegen
 
 CMakeFiles/FlatTarget.dir/FlatTarget.cc.o: CMakeFiles/FlatTarget.dir/flags.make
-CMakeFiles/FlatTarget.dir/FlatTarget.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/flat/FlatTarget.cc
+CMakeFiles/FlatTarget.dir/FlatTarget.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/FlatTarget.cc
 CMakeFiles/FlatTarget.dir/FlatTarget.cc.o: CMakeFiles/FlatTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FlatTarget.dir/FlatTarget.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/FlatTarget.cc.o -MF CMakeFiles/FlatTarget.dir/FlatTarget.cc.o.d -o CMakeFiles/FlatTarget.dir/FlatTarget.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/flat/FlatTarget.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FlatTarget.dir/FlatTarget.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/FlatTarget.cc.o -MF CMakeFiles/FlatTarget.dir/FlatTarget.cc.o.d -o CMakeFiles/FlatTarget.dir/FlatTarget.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/FlatTarget.cc
 
 CMakeFiles/FlatTarget.dir/FlatTarget.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FlatTarget.dir/FlatTarget.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/flat/FlatTarget.cc > CMakeFiles/FlatTarget.dir/FlatTarget.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/FlatTarget.cc > CMakeFiles/FlatTarget.dir/FlatTarget.cc.i
 
 CMakeFiles/FlatTarget.dir/FlatTarget.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FlatTarget.dir/FlatTarget.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/flat/FlatTarget.cc -o CMakeFiles/FlatTarget.dir/FlatTarget.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/FlatTarget.cc -o CMakeFiles/FlatTarget.dir/FlatTarget.cc.s
 
 CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o: CMakeFiles/FlatTarget.dir/flags.make
-CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/flat/GammaMomentumSD.cc
+CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/GammaMomentumSD.cc
 CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o: CMakeFiles/FlatTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o -MF CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o.d -o CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/flat/GammaMomentumSD.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o -MF CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o.d -o CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/GammaMomentumSD.cc
 
 CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/flat/GammaMomentumSD.cc > CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/GammaMomentumSD.cc > CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.i
 
 CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/flat/GammaMomentumSD.cc -o CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/GammaMomentumSD.cc -o CMakeFiles/FlatTarget.dir/GammaMomentumSD.cc.s
 
 CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o: CMakeFiles/FlatTarget.dir/flags.make
-CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/flat/GammaTrackingAction.cc
+CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/GammaTrackingAction.cc
 CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o: CMakeFiles/FlatTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o -MF CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o.d -o CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/flat/GammaTrackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o -MF CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o.d -o CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/GammaTrackingAction.cc
 
 CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/flat/GammaTrackingAction.cc > CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/GammaTrackingAction.cc > CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.i
 
 CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/flat/GammaTrackingAction.cc -o CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/GammaTrackingAction.cc -o CMakeFiles/FlatTarget.dir/GammaTrackingAction.cc.s
 
 CMakeFiles/FlatTarget.dir/action.cc.o: CMakeFiles/FlatTarget.dir/flags.make
-CMakeFiles/FlatTarget.dir/action.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/flat/action.cc
+CMakeFiles/FlatTarget.dir/action.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/action.cc
 CMakeFiles/FlatTarget.dir/action.cc.o: CMakeFiles/FlatTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FlatTarget.dir/action.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/action.cc.o -MF CMakeFiles/FlatTarget.dir/action.cc.o.d -o CMakeFiles/FlatTarget.dir/action.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/flat/action.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FlatTarget.dir/action.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/action.cc.o -MF CMakeFiles/FlatTarget.dir/action.cc.o.d -o CMakeFiles/FlatTarget.dir/action.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/action.cc
 
 CMakeFiles/FlatTarget.dir/action.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FlatTarget.dir/action.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/flat/action.cc > CMakeFiles/FlatTarget.dir/action.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/action.cc > CMakeFiles/FlatTarget.dir/action.cc.i
 
 CMakeFiles/FlatTarget.dir/action.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FlatTarget.dir/action.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/flat/action.cc -o CMakeFiles/FlatTarget.dir/action.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/action.cc -o CMakeFiles/FlatTarget.dir/action.cc.s
 
 CMakeFiles/FlatTarget.dir/construction.cc.o: CMakeFiles/FlatTarget.dir/flags.make
-CMakeFiles/FlatTarget.dir/construction.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/flat/construction.cc
+CMakeFiles/FlatTarget.dir/construction.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/construction.cc
 CMakeFiles/FlatTarget.dir/construction.cc.o: CMakeFiles/FlatTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FlatTarget.dir/construction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/construction.cc.o -MF CMakeFiles/FlatTarget.dir/construction.cc.o.d -o CMakeFiles/FlatTarget.dir/construction.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/flat/construction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FlatTarget.dir/construction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/construction.cc.o -MF CMakeFiles/FlatTarget.dir/construction.cc.o.d -o CMakeFiles/FlatTarget.dir/construction.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/construction.cc
 
 CMakeFiles/FlatTarget.dir/construction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FlatTarget.dir/construction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/flat/construction.cc > CMakeFiles/FlatTarget.dir/construction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/construction.cc > CMakeFiles/FlatTarget.dir/construction.cc.i
 
 CMakeFiles/FlatTarget.dir/construction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FlatTarget.dir/construction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/flat/construction.cc -o CMakeFiles/FlatTarget.dir/construction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/construction.cc -o CMakeFiles/FlatTarget.dir/construction.cc.s
 
 CMakeFiles/FlatTarget.dir/generator.cc.o: CMakeFiles/FlatTarget.dir/flags.make
-CMakeFiles/FlatTarget.dir/generator.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/flat/generator.cc
+CMakeFiles/FlatTarget.dir/generator.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/generator.cc
 CMakeFiles/FlatTarget.dir/generator.cc.o: CMakeFiles/FlatTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FlatTarget.dir/generator.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/generator.cc.o -MF CMakeFiles/FlatTarget.dir/generator.cc.o.d -o CMakeFiles/FlatTarget.dir/generator.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/flat/generator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FlatTarget.dir/generator.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/generator.cc.o -MF CMakeFiles/FlatTarget.dir/generator.cc.o.d -o CMakeFiles/FlatTarget.dir/generator.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/generator.cc
 
 CMakeFiles/FlatTarget.dir/generator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FlatTarget.dir/generator.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/flat/generator.cc > CMakeFiles/FlatTarget.dir/generator.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/generator.cc > CMakeFiles/FlatTarget.dir/generator.cc.i
 
 CMakeFiles/FlatTarget.dir/generator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FlatTarget.dir/generator.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/flat/generator.cc -o CMakeFiles/FlatTarget.dir/generator.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/generator.cc -o CMakeFiles/FlatTarget.dir/generator.cc.s
 
 CMakeFiles/FlatTarget.dir/physics.cc.o: CMakeFiles/FlatTarget.dir/flags.make
-CMakeFiles/FlatTarget.dir/physics.cc.o: /Users/tarasosaulenko/Geant4/work/test_target/flat/physics.cc
+CMakeFiles/FlatTarget.dir/physics.cc.o: /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/physics.cc
 CMakeFiles/FlatTarget.dir/physics.cc.o: CMakeFiles/FlatTarget.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FlatTarget.dir/physics.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/physics.cc.o -MF CMakeFiles/FlatTarget.dir/physics.cc.o.d -o CMakeFiles/FlatTarget.dir/physics.cc.o -c /Users/tarasosaulenko/Geant4/work/test_target/flat/physics.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FlatTarget.dir/physics.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FlatTarget.dir/physics.cc.o -MF CMakeFiles/FlatTarget.dir/physics.cc.o.d -o CMakeFiles/FlatTarget.dir/physics.cc.o -c /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/physics.cc
 
 CMakeFiles/FlatTarget.dir/physics.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FlatTarget.dir/physics.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Geant4/work/test_target/flat/physics.cc > CMakeFiles/FlatTarget.dir/physics.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/physics.cc > CMakeFiles/FlatTarget.dir/physics.cc.i
 
 CMakeFiles/FlatTarget.dir/physics.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FlatTarget.dir/physics.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Geant4/work/test_target/flat/physics.cc -o CMakeFiles/FlatTarget.dir/physics.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/physics.cc -o CMakeFiles/FlatTarget.dir/physics.cc.s
 
 # Object files for target FlatTarget
 FlatTarget_OBJECTS = \
@@ -232,7 +232,7 @@ FlatTarget: /Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/
 FlatTarget: /Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4clhep.dylib
 FlatTarget: /Users/tarasosaulenko/Geant4/geant4-v11.3.2/build/BuildProducts/lib/libG4ptl.3.0.0.dylib
 FlatTarget: CMakeFiles/FlatTarget.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable FlatTarget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable FlatTarget"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FlatTarget.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -244,6 +244,6 @@ CMakeFiles/FlatTarget.dir/clean:
 .PHONY : CMakeFiles/FlatTarget.dir/clean
 
 CMakeFiles/FlatTarget.dir/depend:
-	cd /Users/tarasosaulenko/Geant4/work/test_target/flat/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tarasosaulenko/Geant4/work/test_target/flat /Users/tarasosaulenko/Geant4/work/test_target/flat /Users/tarasosaulenko/Geant4/work/test_target/flat/build /Users/tarasosaulenko/Geant4/work/test_target/flat/build /Users/tarasosaulenko/Geant4/work/test_target/flat/build/CMakeFiles/FlatTarget.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build /Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/CMakeFiles/FlatTarget.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/FlatTarget.dir/depend
 
