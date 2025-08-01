@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 # Load data
-data = np.loadtxt("/Users/tarasosaulenko/Documents/GitHub/Ellipsoidal_X-ray_Experiment/data/data_raw/500 keV/flat/gamma_momenta.csv", delimiter=',', skiprows=1)
-px, py, pz = data[:,2], data[:,3], data[:,4]
+data = np.loadtxt("/home/taraso/Documents/GitHub/Ellipsoidal_X-ray_Experiment/data/data_raw/150 keV/curved/gamma_momenta.csv", delimiter=',', skiprows=1)
+px, py, pz, energy = data[:,2], data[:,3], data[:,4], data[:,5]
 
 # Calculate average vector
-avg_px, avg_py, avg_pz = np.mean(px), np.mean(py), np.mean(pz)
+avg_px, avg_py, avg_pz, avg_energy = np.mean(px), np.mean(py), np.mean(pz), np.mean(energy)
 
 # Calculate divergence measures
 vectors = np.column_stack((px, py, pz))
@@ -27,8 +27,10 @@ angular_divergence = np.mean(angles)
 magnitude_std = np.std(norms)
 
 print(f"Angular divergence: {np.degrees(angular_divergence)} degrees")
+print(f"Average gamma energy: {avg_energy} MeV")
+print(f"Max energy: {np.max(energy)} MeV")
 
-# # Create 3D plot
+# # Create 3D plot with vector arrows
 # fig = plt.figure(figsize=(12, 9))
 # ax = fig.add_subplot(111, projection='3d')
 
