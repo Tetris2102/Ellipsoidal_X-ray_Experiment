@@ -14,7 +14,7 @@ GammaTrackingAction::GammaTrackingAction()
     }
     
     // Write header and immediately flush
-    outputFile << "EventID,TrackID,px (MeV/c),py (MeV/c),pz (MeV/c)\n";
+    outputFile << "EventID,TrackID,px (MeV/c),py (MeV/c),pz (MeV/c), energy (MeV)\n";
     outputFile.flush();
     
     G4cout << "GammaTrackingAction initialized. Output file ready." << G4endl;
@@ -39,11 +39,13 @@ void GammaTrackingAction::PreUserTrackingAction(const G4Track* track)
         
         G4int eventID = G4EventManager::GetEventManager()->GetConstCurrentEvent()->GetEventID();
         G4ThreeVector momentum = track->GetMomentum();
+        G4double energy = track->GetKineticEnergy();
         
         outputFile << eventID << ","
                   << track->GetTrackID() << ","
                   << momentum.x()/CLHEP::MeV << ","
                   << momentum.y()/CLHEP::MeV << ","
-                  << momentum.z()/CLHEP::MeV << "\n";
+                  << momentum.z()/CLHEP::MeV << ","
+                  << energy/CLHEP::MeV << "\n";
     }
 }

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_FlatTarget_FILE /home/taraso/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/flat_target/build/FlatTarget)
+set(__QT_DEPLOY_TARGET_FlatTarget_TYPE EXECUTABLE)

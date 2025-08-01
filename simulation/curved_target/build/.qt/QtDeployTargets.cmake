@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_CurvedTarget_FILE /home/taraso/Documents/GitHub/Ellipsoidal_X-ray_Experiment/simulation/curved_target/build/CurvedTarget)
+set(__QT_DEPLOY_TARGET_CurvedTarget_TYPE EXECUTABLE)

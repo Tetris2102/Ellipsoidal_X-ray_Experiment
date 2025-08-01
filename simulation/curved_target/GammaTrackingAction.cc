@@ -39,11 +39,13 @@ void GammaTrackingAction::PreUserTrackingAction(const G4Track* track)
         
         G4int eventID = G4EventManager::GetEventManager()->GetConstCurrentEvent()->GetEventID();
         G4ThreeVector momentum = track->GetMomentum();
+        G4double energy = track->GetKineticEnergy();
         
         outputFile << eventID << ","
                   << track->GetTrackID() << ","
                   << momentum.x()/CLHEP::MeV << ","
                   << momentum.y()/CLHEP::MeV << ","
-                  << momentum.z()/CLHEP::MeV << "\n";
+                  << momentum.z()/CLHEP::MeV << ","
+                  << energy/CLHEP::MeV << "\n";
     }
 }

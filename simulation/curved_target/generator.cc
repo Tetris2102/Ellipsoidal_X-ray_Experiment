@@ -25,7 +25,7 @@ void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 
     // Electron beam parameters
     G4int eCount = 30000;
-    G4float eEnergy = 300.0f;  // in keV
+    G4float eEnergy = 50.0f;  // in keV
     
     for (G4int i = 0; i <= eCount; i++)
     {
